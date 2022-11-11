@@ -1,0 +1,25 @@
+.license {
+  background-color: #eeeeee;
+  position: relative;
+  z-index: 3;
+  padding-top: 150px;
+  & .container {
+    & .license__content {
+      & hr.title-underline {
+        max-width: 150px;
+      }
+      & .license__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & img:first-child {
+          margin-bottom: 20px;
+        }
+        & img {
+          max-width: 550px;
+        }
+      }
+    }
+  }
+}

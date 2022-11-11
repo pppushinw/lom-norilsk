@@ -1,0 +1,40 @@
+@import "libs/libs";
+@import './vars/fonts';
+@import './vars/colors';
+@import './vars/mixins';
+@import "helpers";
+@import "animation";
+
+@import "interface";
+
+// сюда подлючаем файлы стилей
+
+@import "src/scss/pages/general/header/header";
+@import "src/scss/pages/main/advantages";
+@import "src/scss/pages/main/map";
+@import "src/scss/pages/general/footer/footer";
+
+
+// Price
+@import "src/scss/pages/price/price";
+// Price
+
+// License
+@import "src/scss/pages/license/license";
+// License
+
+// ColoredScrap
+@import "src/scss/pages/coloredScrap/coloredScrapBlock";
+// ColoredScrap
+
+// BlackScrap
+@import "src/scss/pages/blackScrap/blackScrapBlock";
+// BlackScrap
+
+// Contact
+@import "src/scss/pages/contact/contact";
+// Contact
+
+// Reception
+@import "src/scss/pages/reception/reception";
+// Reception

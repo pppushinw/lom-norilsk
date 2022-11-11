@@ -1,0 +1,54 @@
+body {
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%;
+  overflow-scrolling: touch;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  @include regular;
+  //color: $text-color;
+}
+
+span {
+  display: inline-block;
+}
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color .2s;
+  &:hover {
+    //color: $brown;
+  }
+}
+
+.container {
+  width: 100%;
+  @media (min-width:1440px) {
+    width: 100%;
+  }
+}
+
+.container-frame {
+  max-width: 1320px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.bg {
+  position: relative;
+  &__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

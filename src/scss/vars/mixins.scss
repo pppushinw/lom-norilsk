@@ -1,0 +1,84 @@
+
+@mixin thin {
+  font-weight: 100;
+}
+
+@mixin light {
+  font-weight: 300;
+}
+
+@mixin regular {
+  font-weight: normal;
+}
+
+@mixin medium {
+  font-weight: 500;
+}
+
+@mixin bold {
+  font-weight: bold;
+}
+
+@mixin black {
+  font-weight: 900;
+}
+
+
+/******************************************/
+
+%flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%flex-around-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+%grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-auto-flow: row;
+}
+
+%cover-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+%contain-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+%title {
+
+}
+
+%subtitle {
+
+}
+
+
+%btn {
+
+}
